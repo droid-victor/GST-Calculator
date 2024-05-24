@@ -45,6 +45,7 @@ $("#right").addEventListener("click", () => {
   $("#gst_percent").innerText = gst_arr[index];
   findGST();
 });
+// udf
 
 $("#left").addEventListener("click", () => {
   let gst_percent = parseInt($("#gst_percent").innerText);
